@@ -1,0 +1,18 @@
+html{
+  font-size:62.5%;
+}
+body{
+  height:200vh;
+}
+header{
+  position: fixed;
+  display: flex;
+  width:100%;
+  justify-content: center;
+ background-image: url(/images/heiroglyphics.jpeg);
+ background-size: 100% 100%;
+  border:5px solid rgb(56, 53, 53);
+}
+header,img{
+  height:10rem;
+}
