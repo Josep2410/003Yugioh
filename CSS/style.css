@@ -3,16 +3,57 @@ html{
 }
 body{
   height:200vh;
+  
+  /*-----------HEADER----------------------*/
 }
 header{
-  position: fixed;
+ 
   display: flex;
-  width:100%;
   justify-content: center;
- background-image: url(/images/heiroglyphics.jpeg);
- background-size: 100% 100%;
-  border:5px solid rgb(56, 53, 53);
+  background-image: url(/images/heiroglyphics.jpeg);
+  background-size: 100% 100%;
+  border:5px solid rgb(167, 15, 15);
 }
 header,img{
   height:10rem;
+}
+
+/*===========BODY=============================*/
+
+.container{
+  display: grid;
+  margin-left:6px;
+  grid-template-columns: 98%;
+  margin-top:1rem;
+
+}
+.card{
+ height:45rem;
+ display:flex;
+ flex-direction:column;
+
+}
+
+.image-container{
+  height:65%;
+  border:7px solid rgb(97, 94, 94);
+}
+.image-container>img{
+  height:100%;
+  width:100%;
+}
+
+.info-container{
+  height:30%;
+  background: rgb(232,207,128);
+  background: linear-gradient(90deg, rgba(232,207,128,1) 6%, rgba(237,214,138,1) 10%, rgba(229,199,105,1) 29%, rgba(237,214,138,1) 47%, rgba(225,198,112,1) 61%, rgba(237,214,138,1) 74%, rgba(236,212,136,1) 81%, rgba(235,211,134,1) 86%, rgba(232,207,128,1) 94%);
+  border:5px solid rgb(129, 129, 34);
+  display:flex;
+  flex-direction: column;
+}
+.info-container > div:first-child{
+  height:40%;
+}
+.info-container>div:nth-child(2){
+  height:60%;
 }
