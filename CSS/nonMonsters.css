@@ -19,7 +19,7 @@
   height:70%;
   width:17%;
  
-  border:3px solid yellow;
+  box-shadow: 1px 1px 10px rgb(78, 77, 77);
   border-radius:100%;
 }
 
