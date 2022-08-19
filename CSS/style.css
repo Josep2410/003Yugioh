@@ -7,12 +7,12 @@ body{
   /*-----------HEADER----------------------*/
 }
 header{
- 
   display: flex;
   justify-content: center;
   background-image: url(/images/heiroglyphics.jpeg);
   background-size: 100% 100%;
   border:5px solid rgb(167, 15, 15);
+  min-width: 360px;
 }
 header,img{
   height:10rem;
@@ -23,7 +23,7 @@ header,img{
 .container{
   display: grid;
   margin-left:6px;
-  grid-template-columns: 98%;
+  grid-template-columns: 340px;
   margin-top:1rem;
   row-gap: 2rem;
 }
@@ -44,5 +44,36 @@ header,img{
 }
 
 
+
+/*=================Bigger Screen Size======================*/
+
+@media screen and (min-width: 700px){
+  header, img{
+    height:10vh;
+  }
+  .container{
+    grid-template-columns: repeat(3,250px);
+    column-gap:2rem;
+  }
+  .card{
+    height:36rem;
+   }
+  
+}
+@media screen and (min-width: 1200px){
+  header, img{
+    height:10vh;
+  }
+  .container{
+    grid-template-columns: repeat(5,200px);
+    column-gap:2rem;
+  }
+  .card{
+    height:29.5rem;
+   }
+  
+}
+
+  
 
 

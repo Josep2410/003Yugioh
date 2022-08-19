@@ -5,12 +5,6 @@
   flex-direction:column;
 }
 
-.level-container{
-  width:75%;
-  display: flex;
-  justify-content: end;
-}
-
 .top-layer{
   height:45%;
   display:flex;
@@ -19,21 +13,30 @@
 }
 
 .level-container>img{
-  height:2rem;
-  width:2rem;
-  margin-right:.5rem;
+ /* height:2.25rem;
+  width:2.25rem;*/
+  height:9%;
+  width:9%;
+  margin-right:.1rem;
+  border:1.5px solid yellow;
+  border-radius:100%;
+}
+.level-container{
+  width:80%;
+  display: flex;
+  justify-content: end;
 }
 .attribute-container{
   display: flex;
-  width:25%;
+  width:20%;
   justify-content: center;
   
 }
 .attribute-container>img{
-  height:4.5rem;
-  width:4.5rem;
+  height:50%;
+  width:50%;
  
-  border:3px solid yellow;
+  border:2px solid yellow;
   border-radius:100%;
 }
 .bottom-layer{
@@ -42,7 +45,7 @@
   justify-content: space-evenly;
 }
 .attack , .defense{
-  width:14rem;
+  width:42%;
   height:70%;
   border: 3px groove rgb(199, 18, 18);
   border-radius:3px;
@@ -61,9 +64,35 @@
   background-color: rgb(215, 70, 17);
   border:5px solid rgba(132, 55, 11, 0.9);
 }
+.ritual-monsters{
+  background-color: rgb(78, 111, 188);
+  border:5px solid rgba(35, 78, 138, 0.9);
+}
+
+.level-7>img:last-child{
+  margin-right:5%;
+}
 .level-6>img:last-child{
-  margin-right:1rem;
+  margin-right:8%;
 }
 .level-4>img:last-child{
-  margin-right:4rem;
+  margin-right:17%;
+}
+.level-3>img:last-child{
+  margin-right:20%;
+}
+
+/*==========Bigger Screens==================*/
+
+@media screen and (min-width: 700px){
+  .attack,.defense{
+   font-size:3.2rem;
+  }
+   
+ }
+@media screen and (min-width: 1200px){
+ .attack,.defense{
+  font-size:2.9rem;
+ }
+  
 }
