@@ -1,8 +1,6 @@
 .info-container{
   height:30%;
-  background: rgb(232,207,128);
-  background: linear-gradient(90deg, rgba(232,207,128,1) 6%, rgba(237,214,138,1) 10%, rgba(229,199,105,1) 29%, rgba(237,214,138,1) 47%, rgba(225,198,112,1) 61%, rgba(237,214,138,1) 74%, rgba(236,212,136,1) 81%, rgba(235,211,134,1) 86%, rgba(232,207,128,1) 94%);
-  border:5px solid rgba(129, 129, 34, .9);
+ 
   display:flex;
   flex-direction:column;
 }
@@ -54,7 +52,18 @@
   align-items: center;
   font-size:5rem;
 }
-
+.vanilla-monsters{
+  background: rgb(232,207,128);
+  background: linear-gradient(90deg, rgba(232,207,128,1) 6%, rgba(237,214,138,1) 10%, rgba(229,199,105,1) 29%, rgba(237,214,138,1) 47%, rgba(225,198,112,1) 61%, rgba(237,214,138,1) 74%, rgba(236,212,136,1) 81%, rgba(235,211,134,1) 86%, rgba(232,207,128,1) 94%);
+  border:5px solid rgba(129, 129, 34, .9);
+}
+.effect-monsters{
+  background-color: rgb(215, 70, 17);
+  border:5px solid rgba(132, 55, 11, 0.9);
+}
+.level-6>img:last-child{
+  margin-right:1rem;
+}
 .level-4>img:last-child{
   margin-right:4rem;
 }
