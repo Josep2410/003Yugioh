@@ -1,0 +1,28 @@
+/*---------------------------Non Monsters------------------*/
+
+.info-container-non-monsters{
+  height:30%;
+  display:flex;
+  background-color: green;
+  border:5px solid rgb(15, 84, 15);
+  justify-content: center;
+  align-items: center;
+}
+
+.non-monster-container{
+  width:85%;
+  height:50%;
+  border: 3px groove rgb(199, 18, 18);
+  background-color: lightgreen;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:3px;
+}
+.non-monster-container>img{
+  height:4.5rem;
+  width:4.5rem;
+ 
+  border:3px solid yellow;
+  border-radius:100%;
+}
