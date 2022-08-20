@@ -63,9 +63,18 @@
   border:5px solid rgba(132, 55, 11, 0.9);
 }
 .ritual-monsters{
-  background-color: rgb(78, 111, 188);
+  background-color: rgb(63, 93, 164);
   border:5px solid rgba(35, 78, 138, 0.9);
 }
+.slifer{
+  background-color: red;
+  border:5px solid rgb(167, 2, 2);
+}
+.ra{
+  background-color: rgb(230, 230, 34);
+  border:5px solid rgb(182, 182, 3);
+}
+
 
 .level-7>img:last-child{
   margin-right:5%;
