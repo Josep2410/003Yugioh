@@ -9,20 +9,29 @@ body{
 header{
   display: flex;
   justify-content: center;
-  background-image: url(/images/heiroglyphics.jpeg);
-  background-size: 100% 100%;
-  border:5px solid rgb(167, 15, 15);
+  
   min-width: 360px;
 }
 header,img{
   height:10rem;
 }
 
+
 /*===========Styles shared by every card=============================*/
 
+.outermost-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-weight: 500;
+  font-style: italic;
+}
 .container{
+  
   display: grid;
-  margin-left:6px;
   grid-template-columns: 340px;
   margin-top:1rem;
   row-gap: 2rem;
@@ -31,7 +40,8 @@ header,img{
  height:50rem;
  display:flex;
  flex-direction:column;
-
+ border-radius: 5px;
+ overflow:hidden;
 }
 
 .image-container{
@@ -71,7 +81,7 @@ header,img{
   .card{
     height:29.5rem;
    }
-  
+ 
 }
 
   
