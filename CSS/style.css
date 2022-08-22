@@ -3,9 +3,11 @@ html{
 }
 body{
   height:200vh;
-  
-  /*-----------HEADER----------------------*/
+  background-image: url(/images/hieroglyphics.png);
+
+ 
 }
+ /*-----------HEADER----------------------*/
 header{
   display: flex;
   justify-content: center;
@@ -24,10 +26,13 @@ header,img{
   justify-content: center;
   flex-direction: column;
   align-items: center;
+ 
 }
-h1{
+p{
   font-weight: 500;
   font-style: italic;
+  color:rgb(254, 251, 251);
+  font-size:3rem;
 }
 .container{
   
@@ -42,6 +47,11 @@ h1{
  flex-direction:column;
  border-radius: 5px;
  overflow:hidden;
+ transition: .25s;
+}
+
+.card:hover{
+  transform: scale(1.20);
 }
 
 .image-container{
