@@ -1,0 +1,37 @@
+
+html{
+  font-size:62.5%;
+}
+body{
+  height:200vh;
+  background-image: url(/images/hieroglyphics.png);
+
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  min-width: 360px;
+}
+header,img{
+  height:10rem;
+}
+
+
+
+/*=================Bigger Screen Size======================*/
+
+@media screen and (min-width: 700px){
+  header, img{
+    height:13vh;
+  }
+
+}
+@media screen and (min-width: 1200px){
+  header, img{
+    height:15vh;
+  }
+
+
+ 
+}

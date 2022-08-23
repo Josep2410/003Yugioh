@@ -11,7 +11,6 @@ body{
 header{
   display: flex;
   justify-content: center;
-  
   min-width: 360px;
 }
 header,img{
@@ -33,6 +32,8 @@ p{
   font-style: italic;
   color:rgb(254, 251, 251);
   font-size:3rem;
+  max-width: 25ch;
+  text-align: center;
 }
 .container{
   
@@ -50,9 +51,7 @@ p{
  transition: .25s;
 }
 
-.card:hover{
-  transform: scale(1.20);
-}
+
 
 .image-container{
   height:65%;
@@ -69,7 +68,7 @@ p{
 
 @media screen and (min-width: 700px){
   header, img{
-    height:10vh;
+    height:13vh;
   }
   .container{
     grid-template-columns: repeat(3,250px);
@@ -78,7 +77,12 @@ p{
   .card{
     height:36rem;
    }
-  
+   p{
+    max-width: none;
+  }
+  .card:hover{
+    transform: scale(1.20);
+  }
 }
 @media screen and (min-width: 1200px){
   header, img{
@@ -91,6 +95,8 @@ p{
   .card{
     height:29.5rem;
    }
+  
+
  
 }
 
