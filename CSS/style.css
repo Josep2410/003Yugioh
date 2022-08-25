@@ -19,7 +19,17 @@ header,img{
 
 
 /*===========Styles shared by every card=============================*/
-
+a{
+  text-decoration: none;
+  color:black
+}
+a:visited{
+  text-decoration: none;
+  color:black
+}
+.card:hover{
+  cursor: pointer;
+}
 .outermost-container{
   display: flex;
   justify-content: center;
