@@ -98,6 +98,12 @@
 .level-3>img:last-child{
   margin-right:20%;
 }
+.level-2>img:last-child{
+  margin-right:30%;
+}
+.level-1>img{
+  margin-right:33%;
+}
 
 /*==========Bigger Screens==================*/
 
