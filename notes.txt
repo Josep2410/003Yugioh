@@ -1,0 +1,6 @@
+My first attempt to add the YGO cards dynamically (when the DOM has been rendered).
+Currently, each card's level is not displayed. Will try another time.
+
+
+
+           
